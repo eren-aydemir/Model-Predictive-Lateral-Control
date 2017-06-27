@@ -19,3 +19,8 @@ N and dt together arrange that the optimizer considers how many data points in h
 ### Latency Issue
 
 Latency is a real-world problem that may encounter due imperfect steering system and nonlinear effects like bushes and tires. In this project Udacity Simulator has been used to simulate latency between simulation and data acquision. 100ms latency has been used which is also good example for passenger and heavy commercial vehicles.  
+
+
+### Preprocessing and Polynomial Fitting
+
+The waypoints are preprocessed to make them in vehicle coordinate system. This calculations are helpful to further simplify calculations by taking x = 0, y = 0, and psi = 0. Later these wayponts fitted to a 3rd degree polynomial cte and epsi are calculated accordingly.
