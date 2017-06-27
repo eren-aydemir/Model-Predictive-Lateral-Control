@@ -2,8 +2,15 @@
 
 This project aims to find an optimal tracking path for a vehicle to follow given waypoints. The solution uses IPOPT and CPPAD to overcome this optimization problem. The optimization considers kinematic models of a vehicle and cost functions for given boundiries and coinstraints and produces safe to drive actuation inputs as steering and throttle-braking. 
 
+
+[//]: # (Image References)
+
+[image1]: ./camera_cal/calibration1.jpg "Equations"
+
+
 # Kinematic Vehicle Model
 
+![Equations][image1]
 
 # Timestep Length and Elapsed Duration (N & dt)
 
